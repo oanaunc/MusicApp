@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Music App</string>
+
+    <string name="firstButton">Tracks</string>
+    <string name="secondButton">Albums</string>
+    <string name="thirdButton">Artists</string>
+    <string name="fourthButton">Genres</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="com.oanaunciuleanu.musicapp.ArtistsActivity">
+
+    <ImageView
+        style="@style/ImageView_style"
+        />
+
+    <LinearLayout
+        style="@style/linearView_style">
+
+        <TextView
+            style="@style/TextView_style"
+            android:id="@+id/tracks"
+            android:text="@string/firstButton"
+            android:background="@color/track"
+            />
+        <TextView
+            style="@style/TextView_style"
+            android:id="@+id/albums"
+            android:background="@color/albums"
+            android:text="@string/secondButton"
+            />
+        <TextView
+            style="@style/TextView_style"
+            android:id="@+id/artists"
+            android:background="@drawable/bottom_border_artists"
+            android:text="@string/thirdButton"
+            />
+        <TextView
+            style="@style/TextView_style"
+            android:id="@+id/genres"
+            android:background="@color/genre"
+            android:text="@string/fourthButton"
+            />
+
+    </LinearLayout>
+
+
+    <GridView
+        android:id="@+id/grid"
+        android:numColumns="2"
+        style="@style/GridView_style"
+        />
+
+
+
+
+</LinearLayout>
